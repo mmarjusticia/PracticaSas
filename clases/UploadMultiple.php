@@ -14,7 +14,7 @@ class UploadMultiple {
         "JPG"=>1,
         "jpg"=>1
     );    
-    function __construct($parametro, $destino = "../../../pacientes_SAS/") {
+    function __construct($parametro, $destino) {
          
         if(isset($_FILES[$parametro])){  //se comprueba que no te llegue vacío y se llama al método crearArray         
             $nuevoArray = $this->crearArray($_FILES[$parametro]);

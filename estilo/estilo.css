@@ -1,0 +1,57 @@
+#contenedor{width:960px;
+            height:1080px;
+            margin:0 auto;
+            background-image:url('img/medicos2.jpg');}
+#principio{width:600px;
+            height:200px;
+            border:1px solid;
+            border-color:grey;
+            margin-left: 120px;
+           }
+
+#limpia{width:960px;
+        height:50px;}
+
+#principio h1{text-align:center;
+                color:#d00f8a;}
+#principio h2{margin-left: 50px;
+                color:#504f4e;}
+#principio h3{text-align:right;
+                color:black;
+                margin-right:10px; }
+#lista{
+    width:960px;
+    height: 100px;
+    margin-left: 120px;
+    }
+    #lista a{
+         text-decoration: none;
+    list-style-type: none;
+    color:#504f4e;}
+    
+    
+    
+    
+#lista h1{color:#d00f8a;
+    margin-left: 150px;
+                        }
+                        #lista li{
+        margin-left: 40px;
+        margin-top: 20px;
+        font-weight: bolder;
+    }
+    #lista span{
+        margin-left:40px;
+        margin-bottom:40px;
+        color:#504f4e;
+    }
+    #enlaceCerrar{  text-decoration: none;
+    list-style-type: none;
+    color:#d00f8a;
+    }
+    #cerrar{text-align: right;
+            margin-right: 240px;
+            margin-top: 20px;
+    }
+   
+
